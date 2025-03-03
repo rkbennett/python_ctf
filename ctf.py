@@ -214,7 +214,7 @@ def so_argumentative():
         parser.print_help()
     args = parser.parse_args()
     if args.flag:
-        logging.warning(_flg_dcrpt(b'\xfaeD\x82\r\x9e\x1d\xf4\x90\xf7/\x1f\xfe|\xf7\x0b\x15\xca\xb1\xf7A\xeb\xa0\xef\xb8\x00\x12\x07:\\\x8c\x11')) #"flag[You make a valid Arg]") #done
+        logging.warning(_flg_dcrpt(b'\xfaeD\x82\r\x9e\x1d\xf4\x90\xf7/\x1f\xfe|\xf7\x0b\x15\xca\xb1\xf7A\xeb\xa0\xef\xb8\x00\x12\x07:\\\x8c\x11'))
 
 def network_error():
     ns_stuff = get_network_stuff("http://www.msftncsi.com/ncsi.txt")
